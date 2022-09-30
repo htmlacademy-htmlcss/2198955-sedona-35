@@ -15,12 +15,14 @@
     <header class="header">
 
       <nav class="header-nav">
-        <img style="logo" src="img\logo.svg" alt="sedona-logo">
-        <ul class="nav-list">
-          <li class="nav-item nav-link-current"><a class="nav-item-link" href="index.html">Главная</a></li>
-          <li class="about"><a class="about-link" href="about-link.html">О Седоне</a> </li>
-          <li class="catalog"> <a class="hotels-link" href="catalog.html"> Гостиницы</a></li>
-        </ul>
+        <div class="header-nav-logo">
+          <img style="logo" src="img\logo.svg" alt="sedona-logo">
+          <ul class="nav-list">
+            <li class="nav-item nav-link-current"><a class="nav-item-link" href="index.html">Главная</a></li>
+            <li class="about"><a class="about-link" href="about-link.html">О Седоне</a> </li>
+            <li class="catalog"> <a class="hotels-link" href="catalog.html"> Гостиницы</a></li>
+          </ul>
+        </div>
         <ul>
           <li class="search"><a href="#" class="nav-li">Поиск</a> </li>
           <li class="like"> <a href="#">Нравится</a> </li>
@@ -39,57 +41,38 @@
         </div>
         <div class="vector-Img"><img class="vector" src="" alt="">
         </div>
-        <ul class="sedona-Txt">
-          <li class="sedona">
-            <strong>Седона — небольшой городок в Аризоне, заслуживающий большего!</strong>
-          </li>
-          <li class="sedona-Txt-2">
-            <h4>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h4>
-          </li>
-        </ul>
+        <p class="sedona-Txt">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="sedona-Txt-2"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
 
       </section>
       <section class="main-Tile">
-        <div class="tile">
-          <p>
-            <b> Настоящий городок</b>
-          </p>
-          <p>
-          <h5>Седона — не аттракцион для <br> туристов, там течёт своя <br> жизнь</h5>
-          </p>
-          <!-- <img src="img\mount-house.jpg" alt="Дом на фоне гор"> -->
-        </div>
         <ul class="list-Tile">
-          <li>
+          <li class="list-item-tile"> Настоящий городок
+            <br>Седона — не аттракцион для <br> туристов, там течёт своя <br> жизнь
+          </li>
+          <!-- <img src="img\mount-house.jpg" alt="Дом на фоне гор"> -->
+          <li class="list-item-tile">
             <b>Небольшая площадь</b>
-            <p>
+
             <h5>Все достопримечательности <br> находятся очень близко</h5>
-            </p>
 
           </li>
-          <li>
+          <li class="list-item-tile">
             <b>Красивая дорога</b>
             <p>
             <h5>Ехать в Седону из Лас-Вегаса <br> совсем не скучно!</h5>
             </p>
           </li>
-          <li>
+          <li class="list-item-tile">
             <b>Мало туристов</b>
             <p>
-            <h5>Большинство едет в Гранд <br> Каньон и толпится там</h5>
-            </p>
+              <br>Большинство едет в Гранд <br> Каньон и толпится там
           </li>
-
-        </ul>
-        <div class="tile-2">
-          <p>
-            <b>Там есть мост дьявола</b>
-          </p>
-          <p>
-          <h5>Да, по нему можно пройти! <br> Если вы осмелитесь, <br> разумеется</h5>
-          </p>
+          <li class="list-item-tile">Там есть мост дьявола
+            <br>Да, по нему можно пройти! <br> Если вы осмелитесь, <br> разумеется
+          </li>
           <!-- <img src="img\mount.jpg" alt="горы"> -->
-        </div>
+        </ul>
       </section>
       <section class="livs-eat-suvenirs">
         <ul class="list-livs-eat-suvenirs">
@@ -116,15 +99,15 @@
           </li>
         </ul>
       </section>
-      <section class="botton-hotels">
+      <footer class=" main-Footer">
         <div class="area-botton-hotels">
-          <h2>Заинтересовались?</h2>
+          Заинтересовались?
           <p>
-          <h4>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</h4>
+            Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <p><a href="#">ПОИСК ГОСТИНИЦЫ В седоне</a></p>
+          <button class="button button-serch-hotels" type="submit" value="ПОИСК ГОСТИНИЦЫ В седоне">ПОИСК ГОСТИНИЦЫ В
+            седоне</button>
         </div>
-      </section>
     </main>
     <section class="subscribe">
       <div class="area-subscribe">
@@ -137,13 +120,12 @@
           <button type="submit" value="Подписаться">Подписаться</button>
         </form>
       </div>
-    </section>
-    <footer class=" main-Footer">
       <div>
         <ul>
-          <li> <a href="https://vk.com/htmlacademy"><img src="img\VectorVK.png" alt="VK"></a></li>
-          <li> <a href="https://t.me/htmlacademy"><img src="img\VectorTG.png" alt="Telegram"></a></li>
-          <li> <a href=" https://www.youtube.com/user/htmlacademyru"><img src="img\VectorYT.png" alt="Youtobe"></a></li>
+          <h2 class="visually-hidden">Список соц-сетей</h2>
+          <li> <a href="https://vk.com/htmlacademy"></a></li>
+          <li> <a href="https://t.me/htmlacademy"></a></li>
+          <li> <a href=" https://www.youtube.com/user/htmlacademyru"></a></li>
         </ul>
         <address class="adress-tel">
           <p><a href="tel:+7(812)812-12-12">+7(812)812-12-12</a></p>
@@ -151,8 +133,8 @@
         <a class="button" href="https://htmlacademy.ru/"><img src="img\HTML Academy logo.png" alt="htmlacademy">
         </a>
       </div>
-      1111
-    </footer>
+
+      </footer>
   </body>
 
 </html>
