@@ -9,20 +9,21 @@
 
   <body>
     <header class="header">
-
+      <img style="logo" src="img\logo.svg" alt="sedona-logo">
       <nav class="header-nav">
-        <div>
-          <img style="logo" src="img/logo.svg">
+        <div class="header-nav-logo">
           <ul class="nav-list">
-            <li class="nav-item"><a class="nav-item-link" href="index.html" class="nav-li">Главная</a></li>
+            <li class="nav-item nav-link-current"><a class="nav-item-link" href="index.html">Главная</a></li>
             <li class="about"><a class="about-link" href="about-link.html">О Седоне</a> </li>
-            <li class="catalog catalog-link-current"> <a class="hotels-link" href="catalog.html"> Гостиницы</a></li>
+            <li class="catalog"> <a class="hotels-link" href="catalog.html"> Гостиницы</a></li>
           </ul>
         </div>
-        <ul class="visualli-hidden">
-          <li class="search"><a href="#" class="nav-li"> поиск</a> </li>
-          <li class="like"> <a href="#">Нравится</a> </li>
-          <li class="button"> <a href="#">хочу сюда</a> </li>
+        <ul class="nav-list-right">
+          <li class="search"><a href="#" class="nav-item-search">
+              <span class="visually-hidden">Поиск</span></a> </li>
+          <li class="nav-item-like"> <a href="#">
+              <span class="visually-hidden">Нравится</span></a> </li>
+          <li class="button"> <a href="#">ХОЧУ СЮДА</a> </li>
         </ul>
       </nav>
     </header>
@@ -199,10 +200,15 @@
       </div>
       <div>
         <ul>
-          <h2 class="visually-hidden">Список соц-сетей</h2>
-          <li> <a href="https://vk.com/htmlacademy"></a></li>
-          <li> <a href="https://t.me/htmlacademy"></a></li>
-          <li> <a href=" https://www.youtube.com/user/htmlacademyru"></a></li>
+          <li> <a href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">htmlacademy в контакте</span></a>
+          </li>
+          <li> <a href="https://t.me/htmlacademy">
+              <span class="visually-hidden"> htmlacademy в телеграме</span></a>
+          </li>
+          <li> <a href=" https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">htmlacademy ютуб канал</span></a>
+          </li>
         </ul>
         <address class="adress-tel">
           <p><a href="tel:+7(812)812-12-12">+7(812)812-12-12</a></p>
