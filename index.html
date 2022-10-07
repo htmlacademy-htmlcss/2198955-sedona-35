@@ -7,38 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles\style.css">
   </head>
 
   <body>
 
     <header class="header">
-      <img style="logo" src="img\logo.svg" alt="sedona-logo">
-      <nav class="header-nav">
-        <div class="header-nav-logo">
+      <div>
+        <img src="images/logo.svg" alt="sedona-logo">
+        <nav class="header-nav">
+          <h2 class="visually-hidden">Навигация по сайту</h2>
           <ul class="nav-list">
             <li class="nav-item nav-link-current"><a class="nav-item-link" href="index.html">Главная</a></li>
             <li class="about"><a class="about-link" href="about-link.html">О Седоне</a> </li>
             <li class="catalog"> <a class="hotels-link" href="catalog.html"> Гостиницы</a></li>
           </ul>
-        </div>
-        <ul class="nav-list-right">
-          <li class="search"><a href="#" class="nav-item-search">
-              <span class="visually-hidden">Поиск</span></a> </li>
-          <li class="nav-item-like"> <a href="#">
-              <span class="visually-hidden">Нравится</span></a> </li>
-          <li class="button"> <a href="#">ХОЧУ СЮДА</a> </li>
-        </ul>
-      </nav>
+
+          <ul class="nav-list-right">
+            <li class="search"><a href="#" class="nav-item-search">
+                <span class="visually-hidden">Поиск</span></a> </li>
+            <li class="nav-item-like"> <a href="#">
+                <span class="visually-hidden">Нравится</span></a> </li>
+            <li class="button"> <a href="#">ХОЧУ СЮДА</a> </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main-index">
       <section class="first-section">
         <img src="img/index-background.jpg" width="1200" height="485" alt="start-moutains">
         <div class="first-section-bg">
-          <h1>WELLCOME</h1>
-          <h2>to the gorgeous</h2>
-          <h1>SEDONA</h1>
-          <H2>"Because the Grand Canyon sucks!"</H2>
+          <p>WELLCOME</p>
+          <p>to the gorgeous</p>
+          <p>SEDONA</p>
+          <p>"Because the Grand Canyon sucks!"</p>
         </div>
         <div class="vector-Img"><img class="vector" src="" alt="">
         </div>
@@ -100,18 +102,21 @@
           </li>
         </ul>
       </section>
+      <section>
+        <div class="area-botton-hotels">
+          <h2>Заинтересовались?</h2>
+          <p>
+            Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
+          </p>
+          <button class="button button-serch-hotels" type="submit" value="ПОИСК ГОСТИНИЦЫ В седоне">ПОИСК ГОСТИНИЦЫ В
+            седоне</button>
+        </div>
+      </section>
     </main>
     <footer class=" main-Footer">
-      <div class="area-botton-hotels">
-        Заинтересовались?
-        <p>
-          Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
-        </p>
-        <button class="button button-serch-hotels" type="submit" value="ПОИСК ГОСТИНИЦЫ В седоне">ПОИСК ГОСТИНИЦЫ В
-          седоне</button>
-      </div>
+
       <section class="subscribe">
-        <img src="img/blure-backround-mountains.jpg" width="1200" height="414.86" alt="moutains">
+
         <div class="area-subscribe">
           <h2>Подпишитесь на рассылку</h2>
           <p>
