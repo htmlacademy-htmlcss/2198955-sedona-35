@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
@@ -17,62 +17,85 @@
         <img src="images/logo.svg" alt="sedona-logo">
         <nav class="header-nav">
           <h2 class="visually-hidden">Навигация по сайту</h2>
+
           <ul class="nav-list">
-            <li class="nav-item nav-link-current"><a class="nav-item-link" href="index.html">Главная</a></li>
-            <li class="about"><a class="about-link" href="about-link.html">О Седоне</a> </li>
-            <li class="catalog"> <a class="hotels-link" href="catalog.html"> Гостиницы</a></li>
+            <li class="nav-item nav-link-current">
+              <a class="nav-item-link" href="index.html">Главная</a>
+            </li>
+            <li class="about">
+              <a class="nav-item-link" href="about-link.html">О Седоне</a>
+            </li>
+            <li class="catalog">
+              <a class="nav-item-link" href="catalog.html"> Гостиницы</a>
+            </li>
           </ul>
         </nav>
       </div>
       <ul class="nav-list-right">
-        <li class="search"><a href="#" class="nav-item-search">
-            <span class="visually-hidden">Поиск</span></a> </li>
-        <li class="nav-item-like"> <a href="#">
-            <span class="visually-hidden">Нравится</span></a> </li>
-        <li class="button"> <a href="#">ХОЧУ СЮДА</a> </li>
+        <li class="search">
+          <a href="#" class="nav-item-search">
+            <span class="visually-hidden">Поиск</span></a>
+        </li>
+        <li class="nav-item-like">
+          <a href="#">
+            <span class="visually-hidden">Нравится</span></a>
+        </li>
+        <li class="button button-want">
+          <a class="button-want-link" href="#">Хочу сюда</a>
+        </li>
       </ul>
     </header>
     <main class="main-index">
-      <section class="first-section">
-        <img src="images/index-background.jpg" width="1200" height="485" alt="start-moutains">
+      <section class="section-wellcome-to-sedona">
+        <h2 class="visually-hidden">wellcome to Sedona</h2>
         <div class="first-section-bg">
-          <h2 class="visually-hidden">WELLCOME to SEDONA</h2>
-          <p>WELLCOME</p>
+
+          <p>wellcome</p>
           <p>to the gorgeous</p>
-          <p>SEDONA</p>
+          <p>Sedona</p>
           <p>"Because the Grand Canyon sucks!"</p>
         </div>
 
-        </div>
-        <p class="sedona-Txt">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        <p class="sedona-Txt-2"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+
+        <!-- нужна ли тут обертка ? 60-63 -->
+        <p class="sedona-txt">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="sedona-txt-2"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+
       </section>
 
-      <section class="advantages-main-Tile">
+      <section class="advantages-main-tile">
         <h2 class="visually-hidden">приоритеты Седоны</h2>
-        <ul class="advantages-list-Tile">
-          <li class="advantages-list-item-tile"> Настоящий городок
-            <br>Седона — не аттракцион для <br> туристов, там течёт своя <br> жизнь
+        <ul class="advantages-list-tile">
+          <li class="advantages-list-item-tile">
+            <h3 class="advantages-real-town">Настоящий городок</h3>
+            <!-- Что с этими н3 и спаном "В" не ставятся центр  -->
+            <span class="real-town-text">
+              Седона — не аттракцион для <br> туристов, там течёт своя <br> жизнь
+            </span>
           </li>
-          <li><img src="images/mount-house.jpg" width="800" height="384" alt="house-background-mountains"></li>
-          <li class="list-item-tile">
+          <li class="background-image-tile-2">
+
+          </li>
+          <li class="advantages-list-item-tile">
             <b>Небольшая площадь</b>
-            <h5>Все достопримечательности <br> находятся очень близко</h5>
+            <h3>Все достопримечательности <br> находятся очень близко</h3>
           </li>
-          <li class="list-item-tile">
+          <li class="advantages-list-item-tile">
             <b>Красивая дорога</b>
-            <p>
-            <h5>Ехать в Седону из Лас-Вегаса <br> совсем не скучно!</h5>
-            </p>
+
+            <h3>Ехать в Седону из Лас-Вегаса <br> совсем не скучно!</h3>
+
           </li>
-          <li class="list-item-tile">
+          <li class="advantages-list-item-tile">
             <b>Мало туристов</b>
-            <p>
-              <br>Большинство едет в Гранд <br> Каньон и толпится там
-            </p>>
+
+            <br>Большинство едет в Гранд <br> Каньон и толпится там
+
           </li>
-          <li><img src="images/evil-bridge.jpg" alt="evil-bridge-mountain"></li>
-          <li class="list-item-tile">Там есть мост дьявола
+          <li class="background-image-tile-6">
+
+          </li>
+          <li class="advantages-list-item-tile">Там есть мост дьявола
             <br>Да, по нему можно пройти! <br> Если вы осмелитесь, <br> разумеется
           </li>
         </ul>
@@ -83,69 +106,71 @@
           <li>
 
             <b> Жильё </b>
-            <p>
-            <h5> Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</h5>
-            </p>
+
+            <h3> Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</h3>
+
           </li>
           <li>
 
             <b>Еда</b>
-            <p>
-            <h5>Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!</h5>
-            </p>
+
+            <h3>Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!</h3>
+
           </li>
           <li>
 
             <b>Сувениры</b>
-            <p>
-            <h5>Не только китайского, <br> но и настоящего местного <br> производства!</h5>
-            </p>
+
+            <h3>Не только китайского, <br> но и настоящего местного <br> производства!</h3>
+
           </li>
         </ul>
       </section>
       <section>
+        <h2 class="visually-hidden">Укажите предполагаемые даты поездки</h2>
         <div class="area-botton-hotels">
-          <h2>Заинтересовались?</h2>
+          <span>Заинтересовались?</span>
           <p>
             Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <button class="button button-serch-hotels" type="submit" value="ПОИСК ГОСТИНИЦЫ В седоне">ПОИСК ГОСТИНИЦЫ В
+          <button class="button button-serch-hotels" type="button">Поиск гостинницы В
             седоне</button>
         </div>
       </section>
     </main>
-    <footer class=" main-Footer">
+    <footer class="main-footer">
 
       <section class="subscribe">
-
+        <h2 class="visually-hidden">Подписаться на рассылку</h2>
         <div class="area-subscribe">
-          <h2>Подпишитесь на рассылку</h2>
+          <span>Подпишитесь на рассылку</span>
           <p>
-          <h4>Только полезная информация и никакого спама, <br> честное бойскаутское!</h4>
+            Только полезная информация и никакого спама, <br> честное бойскаутское!
           </p>
           <form action="#" method="post">
             <input type="email" value="E-mail">
             <button type="submit" value="Подписаться">Подписаться</button>
           </form>
         </div>
-        <div>
-          <ul>
-            <li> <a href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">htmlacademy в контакте</span></a>
-            </li>
-            <li> <a href="https://t.me/htmlacademy">
-                <span class="visually-hidden"> htmlacademy в телеграме</span></a>
-            </li>
-            <li> <a href=" https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">htmlacademy ютуб канал</span></a>
-            </li>
-          </ul>
-          <address class="adress-tel">
-            <p><a href="tel:+7(812)812-12-12">+7(812)812-12-12</a></p>
-          </address>
-          <a class="button" href="https://htmlacademy.ru/"><img src="images\HTML Academy logo.png" alt="htmlacademy">
-          </a>
-        </div>
+      </section>
+      <div>
+        <ul>
+          <li> <a href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">htmlacademy в контакте</span></a>
+          </li>
+          <li> <a href="https://t.me/htmlacademy">
+              <span class="visually-hidden"> htmlacademy в телеграме</span></a>
+          </li>
+          <li> <a href=" https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">htmlacademy ютуб канал</span></a>
+          </li>
+        </ul>
+        <address class="adress-tel">
+          <p><a href="tel:+7(812)812-12-12">+7(812)812-12-12</a></p>
+        </address>
+        <a class="button" href="https://htmlacademy.ru/"><img src="images/HTML-Academy-logo.png" alt="htmlacademy">
+        </a>
+      </div>
     </footer>
   </body>
 
