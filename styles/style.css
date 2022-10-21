@@ -25,11 +25,11 @@ body {
   height: 3308px;
 }
 
+/* header */
+
 .header {
   color: #000000;
-  background: #FFFFFF;
-  /* width: 1200px;
-  height: 64px; */
+  background-color: #ffffff;
 }
 
 
@@ -54,9 +54,7 @@ body {
   text-transform: capitalize;
 } */
 
-
-.button-want-link {
-  background-color: #756157;
+.button {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -64,9 +62,15 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.button-want-link {
+  background-color: #756157;
+
   color: #FFFFFF;
 }
 
+/* main */
 
 .section-wellcome-to-sedona {
   background-color: #82B3D3;
@@ -97,10 +101,8 @@ body {
 
 
 
-.advantages-list-item-tile {
-  /* height: 384px;
-  width: 400px; */
-  background-color: #82B3D3;
+.advantages-tile {
+  background-color: #82b2d3;
   color: #ffffff;
   font-style: normal;
   text-align: center;
@@ -108,58 +110,317 @@ body {
   line-height: 21px;
 }
 
-.background-image-tile-2 {
-  background-image: url("../images/mount-house.jpg");
-  background-color: #82B3D3;
-  height: 384px;
-  width: 800px;
+.title-advantages {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
 }
 
+.background-image-tile-2 {
+  background-color: #82B3D3;
+}
 
-.advantages-list-item-tile:nth-child(3) {
+.advantages-tile:nth-child(3) {
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
 }
 
-.advantages-list-item-tile:nth-child(4) {
+.advantages-tile:nth-child(4) {
   background-color: rgba(131, 179, 211, 0.2);
   color: #000000;
 }
 
-.advantages-list-item-tile:nth-child(5) {
+.advantages-tile:nth-child(5) {
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
 }
 
 .background-image-tile-6 {
-  background-image: url("../images/evil-bridge.jpg");
   background-color: #82B3D3;
-  height: 384px;
-  width: 800px;
 }
 
-.list-livs-eat-suvenirs {}
+.advantages-tile-livs {
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.2);
+}
 
-/* не встал центр */
+.advantages-tile-eat {
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: rgba(131, 179, 211, 0.12);
+}
 
-b {
-  font-family: 'PT Sans';
+.advantages-tile-suvenirs {
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding: 0;
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+
+.area-botton-hotels {
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
 }
 
-/* не встал центр  */
+.area-botton-hotels p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
+  text-align: center;
+  color: #333333;
+}
 
-h3 {
+.button-serch-hotels {
+  background: #756157;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+/* footer */
+
+.subscribe {
+  background-image: url("../images/blure-backround-mountains.jpg");
+  background-color: #82B3D3;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 415px;
+  color: #ffffff;
+
+}
+
+.area-subscribe {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.area-subscribe p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: none;
+}
+
+.input-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.input-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.adress-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* catalog */
+
+
+.header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.nav-item-link {
+  color: #000000;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+}
+
+.breadcrumbs {
+  width: 1200px;
+  height: 412px;
+  background-image: url("../images/blure-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+
+}
+
+.breadcrumbs-part {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+
+}
+
+.catalog-filter-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.controls {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.button-select {
+
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.button-reset {
+
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.section-sorting h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sorting {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
   color: #333333;
+}
+
+.hotels-catalog-item {
+  background: #FFFFFF;
+}
+
+.hotel-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.area-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.area-price b {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hotel-card-batton-more {
+
+  color: #FFFFFF;
+  background-color: #756157;
+}
+
+.hotel-card-batton-favourites {
+
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.hotel-card-batton-favourites-current {
+  background-color: #7DB54F;
+  color: #ffffff;
+}
+
+.hotel-card-batton-rating {
+
+  font-weight: 400;
+
+  color: #333333;
+  background-color: #F2F2F2;
+  ;
+
+}
+
+/* pagination*/
+
+.pagination-link {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-link-current {
+  color: #000000;
+  background-color: #F2F2F2;
 }
