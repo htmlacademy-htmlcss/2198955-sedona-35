@@ -223,7 +223,6 @@ body {
   flex-grow: 1
 }
 
-.search {}
 
 .first-section-bg {
   background-color: #82b3d3;
@@ -441,7 +440,6 @@ body {
 
 .background-image-tile-6 {
   background-color: #82b3b3;
-
 }
 
 .tile-image {
@@ -455,8 +453,6 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
-  /* width: 400px;
-  height: 384px; */
   position: relative;
 }
 
@@ -955,9 +951,6 @@ subscribe-catalog {
   margin-top: 26px;
 }
 
-/* .title-grou {
-  ddd
-} */
 
 .catalig-filter-grou {
   border: none;
@@ -1766,7 +1759,6 @@ subscribe-catalog {
 .group-grid {
   display: flex;
   justify-content: space-between;
-  /* padding-top: 23px; */
   margin-bottom: 23px;
 }
 
