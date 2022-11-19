@@ -53,10 +53,10 @@
               <svg class="green-round" width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <rect width="20" height="20" rx="10" fill="#7DB54F" />
-                <span class="t-12">12</span>
               </svg>
-
-              <span class="visually-hidden">Нравится.</span></a>
+              <div class="t-12">12</div>
+              <span class="visually-hidden">Нравится.</span>
+            </a>
           </li>
           <li class="button button-want">
             <a class="button-want-link" href="#">Хочу сюда</a>
@@ -305,9 +305,9 @@
       <div class="modal-container">
         <div class="modal modal-auth">
           <button class="modal-close-button ">
-            <div class="button-x">
+            <span class="buttons-x">
               <span class="visually-hidden">Закрыть</span>
-            </div>
+            </span>
           </button>
           <section class="modal-content">
             <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
@@ -318,19 +318,20 @@
               </p>
               <span class="form-error">Мы не можем отправить вас в прошлое</span>
               <p class="field-group outcoming-options">
-                <label class="outcoming-date field-label" for="date">Дата выезда:</label>
-                <input class="outcoming-date field-input" type="text" id="date" name="date" placeholder="Укажите дату">
+                <label class="outcoming-date field-label" for="date-out">Дата выезда:</label>
+                <input class="outcoming-date field-input" type="text" id="date-out" name="date"
+                  placeholder="Укажите дату">
               </p>
               <span class="date-description">На эти даты есть свободные номера. Пока есть</span>
               <div class="group-grid">
                 <div class="field-group-adults user-options adults-options">
-                  <label class="adults" for="visiters-field-label ">Взрослые:</label>
+                  <label class="adults" for="visiterslabel">Взрослые:</label>
                   <button class="button-less" type="button"></button>
-                  <input class="visiters-number " type="number" id="number" name="" value="2">
+                  <input class="visiters-number" type="number" id="visiterslabel" name="fields" value="2">
                   <button class="button-more" type="button"></button>
                 </div>
                 <div class="field-group-children user-options children-options">
-                  <label class="children" for="visiters-field-label ">Дети:</label>
+                  <label class="children" for="visiters-fields-label-ch">Дети:</label>
                   <svg class="info-round" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="13" cy="13" r="13" fill="#83B3D3" />
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" fill="#fff" />
@@ -339,7 +340,7 @@
 
                   <button class="button-less" type="button">
                   </button>
-                  <input class="visiters-number " type="number" id="number" name="" value="2">
+                  <input class="visiters-number" type="number" id="visiters-fields-label-ch" name="2" value="2">
 
                   <button class="button-more" type="button">
                   </button>

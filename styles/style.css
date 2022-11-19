@@ -229,7 +229,7 @@ body {
   background-image: url("../images/index-background.jpg");
   width: 1200px;
   background-repeat: no-repeat;
-  background-position: cover;
+  /* background-position: cover; */
   display: block;
 }
 
@@ -238,7 +238,7 @@ body {
   margin: auto;
   padding-top: 51px;
   background-repeat: no-repeat;
-  background-position: cover;
+  /* background-position: cover; */
 }
 
 .gorgeous {
@@ -1275,6 +1275,7 @@ subscribe-catalog {
   padding-left: 18px;
   padding-right: 48px;
   appearance: none;
+  background-color: #ffffff;
 }
 
 .select-control:hover {
@@ -1425,19 +1426,21 @@ subscribe-catalog {
   padding: 8px 20px;
 }
 
-.hotel-card-batton-favourites:hover {
+.hotel-card-batton-favourites:hover,
+.find-button:hover {
   background-color: #68a2ca;
 }
 
-.hotel-card-batton-favourites:focus {
+.hotel-card-batton-favourites:focus,
+.find-button:hover{
   background-color: #68a2ca;
 }
 
-.hotel-card-batton-favourites:active {
+.hotel-card-batton-favourites:active,
+.find-button:active {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .hotel-card-batton-favourites-current {
   background-color: #7db54f;
@@ -1611,11 +1614,11 @@ subscribe-catalog {
   border: 3px solid #83B3D3;
 }
 
-.button-x {
+.buttons-x {
   padding: 0;
   width: 52px;
   height: 52px;
-  border: 50%;
+  border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../images/vector-X.svg");
@@ -1639,7 +1642,6 @@ subscribe-catalog {
   margin-bottom: 49px;
   padding-top: 49px;
 }
-}
 
 .field-input:hover {
   background-color: #e6e6e6;
@@ -1649,11 +1651,15 @@ subscribe-catalog {
   background: #e6e6e6;
   border: 3px solid #83b3d3;
   outline: none;
+  padding-left: 17px;
+  padding-right: 47px;
 }
 
 .field-input:active {
   border: 2px solid #000000;
   outline: none;
+  padding-left: 18px;
+  padding-right: 48px;
 }
 
 .field-input {
@@ -1672,7 +1678,7 @@ subscribe-catalog {
   content: url("../images/vector-calendar.svg");
   position: absolute;
   left: 609px;
-  top: calc(100% + -404px);
+  top: calc(100% + -400px);
   width: 16px;
   height: 15px;
   opacity: 0.1;
@@ -1711,6 +1717,12 @@ subscribe-catalog {
   justify-content: space-between;
   align-items: center;
 
+}
+
+visiters-number::-webkit-outer-spin-button,
+visiters-number::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .visit-options {
@@ -1794,6 +1806,7 @@ subscribe-catalog {
   color: #000000;
   box-sizing: border-box;
   padding-left: 10px;
+  -moz-appearance: textfield;
 }
 
 .visiters-number input {
